@@ -8,6 +8,7 @@ export default function Contact() {
     const [message, setMessage] = useState('')
     const [regarding, setRegarding] = useState('');
     const [submitted, setSubmitted] = useState(false)
+    const [emailSend, setEmailSend] = useState(false)
     
     const handleSubmit = (e) => { 
         e.preventDefault()
@@ -28,6 +29,7 @@ export default function Contact() {
         }).then((res) => {
           console.log('Response received')
           if (res.status === 200) {
+            setEmailSend(true)
             console.log('Response succeeded!')
             setSubmitted(true)
             setName('')
@@ -56,6 +58,9 @@ export default function Contact() {
             <div className="mx-auto max-w-screen-md pt-10 pb-20" id="contact">
                 <h2 className="font40 text-center">KONTAKT</h2>
                 <div class="mt-10 sm:mx-auto sm:w-full">
+                    {emailSend?(<div className="formMsg">
+                        <p>Email successfully sent</p>
+                    </div>):null}
                     <form class="space-y-6" onSubmit={handleSubmit}>
                         <div className="grid grid-cols-2 gap-4">
                             <div class="mt-2">
