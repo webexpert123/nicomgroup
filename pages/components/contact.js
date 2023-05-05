@@ -103,7 +103,7 @@ export default function Contact() {
                                     <span class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Loading...</span>
                                     </div>
                                 </button>
-                            ):(<button type="submit" class="flex w-full justify-center rounded-md bg-black px-10 py-3 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Sign in</button>)}
+                            ):(<button type="submit" class="flex w-full justify-center rounded-md bg-black px-10 py-3 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Absenden</button>)}
                         </div>
                     </form>
                 </div>
