@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function Home3() {
     return (
         <>
-            <div className="grid grid-cols-2 gap-4 align-middle home3">
+            <div className="grid grid-cols-2 gap-4 align-middle home3" id="section3">
                 <div className="column-left max460 home3left">
-                    <h2 className='font40 pb-7 leading-none'>NICOM VERMARKTET SNUS UND VAPING PRODUKTE</h2>
+                    <h2 className='font40 pb-7 leading-1'>NICOM VERMARKTET SNUS UND VAPING PRODUKTE</h2>
                     <p className='pb-20'>Kontaktieren Sie uns für mehr Informationen Nicom entwickelt Produkte und Marken im Bereich von alternativen Nicotine Produkte.</p>
                     <div className="grid grid-cols-2 gap-4">
                         <div>

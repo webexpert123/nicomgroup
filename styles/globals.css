@@ -28,6 +28,20 @@ h3 {
 #contact input,
 #contact textarea {
   border-bottom: solid 1px #000;
+  padding: 12px;
+}
+#contact textarea {
+  min-height: 150px;
+}
+#contact input:focus,
+#contact textarea:focus {
+  border: solid 1px #000;
+}
+div#section2 {
+  padding-bottom: 160px;
+}
+.logo {
+  padding-top: 40px;
 }
 #contact button {
   font-size: 18px;
@@ -39,4 +53,10 @@ h3 {
   color: green;
   font-style: italic;
   font-weight: 600;
+}
+div#contact {
+  padding: 130px 0;
+}
+html {
+  scroll-behavior: smooth;
 }

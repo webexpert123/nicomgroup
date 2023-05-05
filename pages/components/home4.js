@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home4() {
     return (
         <>
-            <div className="grid grid-cols-2 gap-4 align-middle home3" id="section4">
+            <div className="grid grid-cols-2 gap-4 align-middle home4" id="section4">
                 <div className="column-right align-middle">                    
                     <Image src="/group-img.jpg" className="object-cover object-center w-full"
                     width="1000"

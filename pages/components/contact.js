@@ -50,7 +50,28 @@ export default function Contact() {
     // const handleSubmit = {
 
     // }
-  
+    const formik = useFormik({
+        initialValues: {
+          name: '',
+          email: '',
+          password: '',
+        },
+        validationSchema: Yup.object({
+          name: Yup.string()
+            .max(50, 'Must be 50 characters or less')
+            .required('Required'),
+          email: Yup.string()
+            .email('Invalid email address')
+            .required('Required'),
+          password: Yup.string()
+            .min(6, 'Must be at least 6 characters')
+            .required('Required'),
+        }),
+        onSubmit: (values) => {
+          console.log(values);
+        },
+
+    });
 
 
     return (

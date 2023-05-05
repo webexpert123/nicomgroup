@@ -34,11 +34,11 @@ export default function Header() {
 
                             <div class="hidden sm:ml-6 sm:block">
                                 <div class="flex space-x-4">
-                                    <a href="#" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Start</a>
-                                    <a href="#section3" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Infos</a>
-                                    <a href="#" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Dienstleistungen</a>
-                                    <a href="#" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Geschäftszeiten</a>
-                                    <a href="#" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Kontakt</a>
+                                    <a href="#header" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-light">Start</a>
+                                    <a href="#section2" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-light">Infos</a>
+                                    <a href="#section3" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-light">Dienstleistungen</a>
+                                    <a href="#section4" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-light">Geschäftszeiten</a>
+                                    <a href="#contact" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-light">Kontakt</a>
                                 </div>
                             </div>
                         </div>
