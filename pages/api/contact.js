@@ -13,7 +13,8 @@ export default function (req, res) {
     })
     const mailData = {
         from: "no-reply@accounts.google.com",
-        to: process.env.GMAIL_USERNAME,
+        // to: process.env.GMAIL_USERNAME,
+        to: "kanhaiya@indiainfotech.com",
         subject: `Message From ${req.body.name}`,
     
     html: 

@@ -1,7 +1,7 @@
 export default function Home2() {
     return (
         <>
-            <div style={{ maxWidth: "780px" }} className="mx-auto pb-20 pt-7 text-center">
+            <div style={{ maxWidth: "780px" }} className="mx-auto text-center home2">
                 <h2 className="font72" style={{lineHeight: "1.3em"}}>ALTERNATIVE NICOTINE PRODUKTE</h2>
                 <h3 className="font40 pb-7 pt-20" id="section2">NICOM GROUP</h3>
                 <p className="pb-7">Ein Europa ohne Zigaretten</p>
