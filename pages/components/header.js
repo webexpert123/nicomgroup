@@ -16,7 +16,7 @@ export default function Header() {
     return (
         <>
             <div class="absolute inset-y-0 right-0 top-5 z-50 items-center sm:hidden">
-                <button type="button" class={`dropdown-button ${isActive ? 'active' : ''}`} aria-controls="mobile-menu" aria-expanded="false" onClick={handleDropdownClick}>
+                <button type="button" class={`dropdown-button mr-2 ${isActive ? 'active' : ''}`} aria-controls="mobile-menu" aria-expanded="false" onClick={handleDropdownClick}>
                     <span class="sr-only">Open main menu</span>
                     <svg class="block h-10 w-10" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
